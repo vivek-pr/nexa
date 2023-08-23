@@ -53,7 +53,3 @@ We welcome contributions to Nexa! Please see the [CONTRIBUTING.md](link-to-contr
 ## License
 
 Nexa is released under the [MIT License](link-to-your-license-file).
-
----
-
-Remember, this is a basic README to get you started. As your project develops, you'll want to update it with more details, functionalities, and possibly even demo images or GIFs. A comprehensive README will be highly beneficial if you're looking to collaborate with others or attract users to your project.
