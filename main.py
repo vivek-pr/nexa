@@ -1,5 +1,7 @@
 from utils.recorder import record_audio
 from utils.stt import transcribe_audio
+from utils.witai import get_intent_from_response
+
 
 def main():
     audio_filename = "temp_recording.wav"
@@ -10,6 +12,9 @@ def main():
     print("Transcribing the recorded audio...")
     transcript = transcribe_audio(audio_filename)
     print(f"Transcript: {transcript}")
+    intent = get_intent_from_response(transcript)
+    print(f"Intent: {intent}")
+
 
 if __name__ == "__main__":
     main()
